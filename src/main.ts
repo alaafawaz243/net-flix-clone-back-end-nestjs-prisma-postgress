@@ -13,7 +13,7 @@ async function bootstrap() {
     logger: WinstonConfig,
   });
   app.enableCors({
-    origin: 'https://alaa-fawaz-manea-afm-net-flix-clone-two.vercel.app/',
+    origin: 'https://alaa-fawaz-manea-afm-net-flix-clone-two.vercel.app',
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
   });
